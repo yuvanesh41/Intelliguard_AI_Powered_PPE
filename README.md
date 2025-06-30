@@ -1,31 +1,43 @@
 # Intelliguard_AI_Powered_PPE
+
 🚀 Intelliguard: AI-Powered PPE Compliance Monitoring System
+
 A computer vision–powered object detection platform to monitor Personal Protective Equipment (PPE) compliance in manufacturing and industrial environments.
 
 🛠️ Project Phases
+
 🔬 Phase 1: Model Training & Core Object Detection
 Prepare and preprocess the dataset.
 Train and validate a YOLO-based object detection model to identify PPE compliance and violations.
+
 🔐 Phase 2: Face/PIN Authentication
 Implement a face recognition module for secure user login.
 Provide an optional PIN/password fallback authentication mechanism.
+
 🖥️ Phase 3: Streamlit App
 Develop a user-friendly Streamlit web application.
 Workflow: Login → Upload image/video → Display detection results with bounding boxes.
+
 ☁️ Phase 4: AWS Integration
 Store uploaded images/videos in AWS S3.
 Log violation metadata and detailed records to AWS RDS for analysis and reporting.
+
 🤖 Phase 5: LLM Chatbot (LangChain + SQL Agent)
 Enable natural language querying of compliance and violation data stored in RDS using a LangChain-powered chatbot.
+
 📧 Phase 6: Automation & Reporting
 Send automated email alerts when violations exceed predefined thresholds.
+
 Support CSV export of logged compliance data for audits and reports.
+
 ✅ Key Features
+
 Real-time object detection of PPE compliance.
 Secure authentication (Face ID and PIN/password).
 Cloud storage and structured database logging.
 Conversational AI interface for querying violations.
 Automated notifications and reporting tools.
+
 📂 Project Structure
 Below is my current folder structure
 Intelliguard_PPE_Detection/
@@ -118,5 +130,3 @@ Intelliguard_PPE_Detection/
 ├── email_9
 │   ├── email_cred.env
 │   ├── emailer.py
-Streamlit Output:
-Main_Page-pin_login Main_Page-Pin_Register Main_Page-Face_Register Main Page - Face_Login Main Page - Face_Login1 Second_Page1 Second_Page_2 Second_Page_3 Second_Page_4 Download_csv_5 Chat_Bot Email_Alerts_6 Email_Alerts_7 
