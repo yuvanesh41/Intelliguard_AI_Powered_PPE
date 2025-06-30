@@ -56,7 +56,7 @@ if sys.platform == 'win32':
 
 @st.cache_resource
 def load_yolo_model():
-    weights_path = 'C:\\Users\\AK\\Downloads\\colab_train2\\runs\\train\\colab_train2\\weights\\best.pt'
+    weights_path = 'C:\\Users\\aswin\\Downloads\\colab_train2\\runs\\train\\colab_train2\\weights\\best.pt'
     model = DetectMultiBackend(weights_path, device='cpu') 
     return model
 
