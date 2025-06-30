@@ -1,0 +1,13 @@
+streamlit
+torch
+opencv-python-headless
+numpy
+Pillow
+face_recognition
+pandas
+psycopg2-binary
+sqlalchemy
+langchain
+openai
+cmake
+dlib
